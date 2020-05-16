@@ -49,7 +49,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
                 }}
               >
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
+                  test YT
                 </Link>
               </h3>
               <small>{node.frontmatter.date}</small>
